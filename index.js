@@ -7,3 +7,4 @@ function printBadges(emplyee){
   }
   return employee;
 }
+printBadges;
