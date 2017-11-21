@@ -14,9 +14,9 @@ function tailsNeverFails() {
   return Math.random() >= 0.5;
 }
 
-let i = 0;
+let j = 0;
 
 while (tailsNeverFails() {
-  i++;
+  j++;
 }
-console.log(`You got ${i} tails in a row!`)
+console.log(`You got ${j} tails in a row!`)
