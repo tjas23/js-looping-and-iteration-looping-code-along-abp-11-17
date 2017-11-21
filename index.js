@@ -7,3 +7,4 @@ function wrapGifts(gifts){
   }
   return gifts;
 }
+wrapGifts(gifts);
