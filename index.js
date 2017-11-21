@@ -1,5 +1,5 @@
 // Code your solutions in this file
-const employee = ['Ada', 'Brendan', 'Ali'];
+//const employee = ['Ada', 'Brendan', 'Ali'];
 
 function printBadges(employee){
   for (let i = 0; i < employee.length; i++){
