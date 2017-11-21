@@ -1,4 +1,8 @@
 // Code your solutions in this file
-for (let i = 0; i < 20; i++) {
-  console.log(`iteration ${i+1}`);
+const gifts = ['teddy bear', 'drone', 'doll'];
+function wrapGifts(gifts){
+  for (let i = 0; i < gifts.length; i++){
+    console.log(`I wrapped ${gifts[i]} and added a bow!`);
+  }
+  return gifts;
 }
