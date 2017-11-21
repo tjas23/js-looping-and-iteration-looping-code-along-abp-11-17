@@ -27,5 +27,5 @@ function tailsNeverFails() {
     j++
 //    console.log(j)
   }
-  console.log(`You got ${j} tails in a row!`)
+  return `You got ${j} tails in a row!`
 }
