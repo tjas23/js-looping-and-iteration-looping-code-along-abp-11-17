@@ -1,10 +1,9 @@
 // Code your solutions in this file
-const gifts = ['teddy bear', 'drone', 'doll'];
+const employees = ['Ada', 'Brendan', 'Ali'];
 
-function wrapGifts(gifts){
-  for (let i = 0; i < gifts.length; i++){
-    console.log(`I wrapped the ${gifts[i]} and added a bow!`);
+function printBadges(emplyees){
+  for (let i = 0; i < employees.length; i++){
+    console.log(`Welcome ${employee[i]}! You are employee #${i} `)
   }
-  return gifts;
+  return employees
 }
-wrapGifts(gifts);
