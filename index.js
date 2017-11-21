@@ -13,9 +13,9 @@ function printBadges(employee){
 // function tailsNeverFails() {
 //   return Math.random() >= 0.5;
 // }
-// 
+//
 // let j = 0;
-// 
+//
 // while (tailsNeverFails()) {
 //   j++;
 // }
@@ -28,5 +28,3 @@ function tailsNeverFails() {
   }
   console.log(`You got ${j} tails in a row!`)
 }
-
-
