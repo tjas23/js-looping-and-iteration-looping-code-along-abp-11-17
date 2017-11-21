@@ -7,3 +7,16 @@ function printBadges(employee){
   }
   return employee;
 }
+
+
+
+function tailsNeverFails() {
+  return Math.random() >= 0.5;
+}
+
+let i = 0;
+
+while (tailsNeverFails() {
+  i++;
+}
+console.log(`You got ${i} tails in a row!`)
